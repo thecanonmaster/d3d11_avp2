@@ -1,0 +1,1 @@
+#define XM_ALIGNED_STRUCT(V) __declspec(align(V))

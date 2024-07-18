@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// EXTRAS
+//
+
+IDR_EXTRA_WORLD_TWEAKS  EXTRA                  "render\\extras\\world_tweaks.txt"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHADER
+//
+
+IDR_SHADER_OPTIMIZED_SURFACE_VS SHADER                  "render\\shaders\\optimizedsurface_VS.hlsl"
+
+IDR_SHADER_OPTIMIZED_SURFACE_PS SHADER                  "render\\shaders\\optimizedsurface_PS.hlsl"
+
+IDR_SHADER_SOLIDDRAWING_PS SHADER                  "render\\shaders\\soliddrawing_PS.hlsl"
+
+IDR_SHADER_SOLIDDRAWING_VS SHADER                  "render\\shaders\\soliddrawing_VS.hlsl"
+
+IDR_SHADER_TONEMAP_PS   SHADER                  "render\\shaders\\tonemap_PS.hlsl"
+
+IDR_SHADER_TONEMAP_VS   SHADER                  "render\\shaders\\tonemap_VS.hlsl"
+
+IDR_SHADER_SCREENFX_PS  SHADER                  "render\\shaders\\screenfx_PS.hlsl"
+
+IDR_SHADER_SCREENFX_VS  SHADER                  "render\\shaders\\screenfx_VS.hlsl"
+
+IDR_SHADER_CLEARSCREEN_VS SHADER                  "render\\shaders\\clearscreen_VS.hlsl"
+
+IDR_SHADER_CLEARSCREEN_PS SHADER                  "render\\shaders\\clearscreen_PS.hlsl"
+
+IDR_SHADER_FULLSCREEN_VIDEO_VS SHADER                  "render\\shaders\\fullscreenvideo_VS.hlsl"
+
+IDR_SHADER_FULLSCREEN_VIDEO_PS SHADER                  "render\\shaders\\fullscreenvideo_PS.hlsl"
+
+IDR_SHADER_MODEL_PS     SHADER                  "render\\shaders\\model_PS.hlsl"
+
+IDR_SHADER_MODEL_VS     SHADER                  "render\\shaders\\model_VS.hlsl"
+
+IDR_SHADER_MODEL_GS     SHADER                  "render\\shaders\\model_GS.hlsl"
+
+IDR_SHADER_WORLD_MODEL_PS SHADER                  "render\\shaders\\worldmodel_PS.hlsl"
+
+IDR_SHADER_WORLD_MODEL_VS SHADER                  "render\\shaders\\worldmodel_VS.hlsl"
+
+IDR_SHADER_SKY_WORLD_MODEL_PS SHADER                  "render\\shaders\\skyworldmodel_PS.hlsl"
+
+IDR_SHADER_SKY_WORLD_MODEL_VS SHADER                  "render\\shaders\\skyworldmodel_VS.hlsl"
+
+IDR_SHADER_SPRITE_PS    SHADER                  "render\\shaders\\sprite_PS.hlsl"
+
+IDR_SHADER_SPRITE_VS    SHADER                  "render\\shaders\\sprite_VS.hlsl"
+
+IDR_SHADER_PARTICLE_SYSTEM_PS SHADER                  "render\\shaders\\particlesystem_PS.hlsl"
+
+IDR_SHADER_PARTICLE_SYSTEM_VS SHADER                  "render\\shaders\\particlesystem_VS.hlsl"
+
+IDR_SHADER_CANVAS_PS    SHADER                  "render\\shaders\\canvas_PS.hlsl"
+
+IDR_SHADER_CANVAS_VS    SHADER                  "render\\shaders\\canvas_VS.hlsl"
+
+IDR_SHADER_POLYGRID_PS  SHADER                  "render\\shaders\\polygrid_PS.hlsl"
+
+IDR_SHADER_POLYGRID_VS  SHADER                  "render\\shaders\\polygrid_VS.hlsl"
+
+IDR_SHADER_LINE_SYSTEM_PS SHADER                  "render\\shaders\\linesystem_PS.hlsl"
+
+IDR_SHADER_LINE_SYSTEM_VS SHADER                  "render\\shaders\\linesystem_VS.hlsl"
+
+IDR_SHADER_GLOBAL_HEADER SHADER                  "render\\shaders\\global_header.hlsl"
+
+IDR_SHADER_PASSTHROUGH_PS SHADER                  "render\\shaders\\passthrough_PS.hlsl"
+
+IDR_SHADER_PASSTHROUGH_VS SHADER                  "render\\shaders\\passthrough_VS.hlsl"
+
+IDR_SHADER_BLOOM_EXTRACT_PS SHADER                  "render\\shaders\\bloomextract_PS.hlsl"
+
+IDR_SHADER_BLOOM_EXTRACT_VS SHADER                  "render\\shaders\\bloomextract_VS.hlsl"
+
+IDR_SHADER_BLOOM_BLUR_PS SHADER                  "render\\shaders\\bloomblur_PS.hlsl"
+
+IDR_SHADER_BLOOM_BLUR_VS SHADER                  "render\\shaders\\bloomblur_VS.hlsl"
+
+IDR_SHADER_BLOOM_COMBINE_PS SHADER                  "render\\shaders\\bloomcombine_PS.hlsl"
+
+IDR_SHADER_BLOOM_COMBINE_VS SHADER                  "render\\shaders\\bloomcombine_VS.hlsl"
+
+IDR_SHADER_OPTIMIZED_SURFACE_BAT_VS SHADER                  "render\\shaders\\optimizedsurface_bat_VS.hlsl"
+
+IDR_SHADER_OPTIMIZED_SURFACE_BAT_PS SHADER                  "render\\shaders\\optimizedsurface_bat_PS.hlsl"
+
+IDR_SHADER_SKY_PORTAL_PS SHADER                  "render\\shaders\\skyportal_PS.hlsl"
+
+IDR_SHADER_SKY_PORTAL_VS SHADER                  "render\\shaders\\skyportal_VS.hlsl"
+
+IDR_SHADER_CANVAS_BAT_PS    SHADER                  "render\\shaders\\canvas_bat_PS.hlsl"
+
+IDR_SHADER_CANVAS_BAT_VS    SHADER                  "render\\shaders\\canvas_bat_VS.hlsl"
+
+IDR_SHADER_SPRITE_BAT_PS    SHADER                  "render\\shaders\\sprite_bat_PS.hlsl"
+
+IDR_SHADER_SPRITE_BAT_VS    SHADER                  "render\\shaders\\sprite_bat_VS.hlsl"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_RENDER_DLL_NAME      "LithTech DirectX11 Renderer"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

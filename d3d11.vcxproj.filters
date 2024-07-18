@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{19943a1e-4cbd-4afb-917b-f4d13331b6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{7b4c2250-7f65-4cbc-953d-646e115a52ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lithtech">
+      <UniqueIdentifier>{0ed43ab0-93ce-41a0-b1e4-9b503fc161ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lithtech\objtypes">
+      <UniqueIdentifier>{801609b4-2cb8-4008-a798-c03e8455684b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render">
+      <UniqueIdentifier>{52a073a5-b908-49e3-a035-251b8e105e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{900ceb3f-21b3-4b20-9011-052ca1ea21a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lithtech">
+      <UniqueIdentifier>{d4134bed-f24c-49c9-bd67-9d35e9f54eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\shaders">
+      <UniqueIdentifier>{9018b985-cb32-4d31-b01d-d576e80eb584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lithtech\objtypes">
+      <UniqueIdentifier>{9db627c8-67e1-4947-b2c0-5ba48180af82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\extras">
+      <UniqueIdentifier>{9a271f87-6dc3-41ad-b359-d812cd800808}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\common.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\logger.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\basetypes.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\codes.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\mainworld.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\rendertypes.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\statechange.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\surftypes.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\textypes.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\types.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\base.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\camera.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\canvas.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\container.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\light.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\linesystem.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\model.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\particlesystem.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\polygrid.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\sprite.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\staticlight.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\terrainsection.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\worldmodel.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\objtypes\worldtree.h">
+      <Filter>Header Files\lithtech\objtypes</Filter>
+    </ClInclude>
+    <ClInclude Include="render\common_init.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shell.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\common_stuff.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_convar.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\rendererconsolevars.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_init.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_device.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\rendertarget.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_draw.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_surface.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_utils.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\rendertargetmgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_texture.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\renderstatemgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\conparse.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_optimizedsurface.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_optimizedsurface.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_base.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\rendershadermgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\common_draw.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_soliddrawing.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\framelimiter.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_tonemap.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_postprocess.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_screenfx.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_viewparams.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_mathhelpers.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\aabb.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_vertextypes.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_directdraw.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_clearscreen.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_fullscreenvideo.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_objects.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_sprite.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\tagnodes.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\3d_ops.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_sprite.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_passthrough.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\globalmgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_canvas.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\iltcustomdraw.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_canvas.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_linesystem.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\common_datamgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_linesystem.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_light.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_polygrid.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_polygrid.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_particles.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_particles.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_model.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\setup_model.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_model.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\transformmaker.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_renderworld.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_renderworld_occluder.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\rendermodemgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_worldmodel.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\draw_sky.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_worldmodel.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\polyclip.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="lithtech\structbank.h">
+      <Filter>Header Files\lithtech</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_lightmap.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\full_intersectline.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\intersectline.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\crc32.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\d3d_shader_bloom.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\logger.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\common.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render\common_init.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shell.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\common_stuff.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\rendererconsolevars.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_init.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_device.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\rendertarget.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_draw.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_surface.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_utils.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="lithtech\textypes.cpp">
+      <Filter>Source Files\lithtech</Filter>
+    </ClCompile>
+    <ClCompile Include="render\rendertargetmgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_texture.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\renderstatemgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\conparse.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_optimizedsurface.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_optimizedsurface.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_base.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\rendershadermgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\common_draw.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_soliddrawing.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_tonemap.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_postprocess.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_screenfx.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_viewparams.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_mathhelpers.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\aabb.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_vertextypes.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_directdraw.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_clearscreen.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_fullscreenvideo.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_objects.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_sprite.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\tagnodes.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_sprite.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_passthrough.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\globalmgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_canvas.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_canvas.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_linesystem.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_linesystem.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_light.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_polygrid.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_polygrid.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_particles.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_particles.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_model.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\setup_model.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_model.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="lithtech\objtypes\model.cpp">
+      <Filter>Source Files\lithtech\objtypes</Filter>
+    </ClCompile>
+    <ClCompile Include="render\transformmaker.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\3d_ops.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_renderworld.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_renderworld_occluder.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\rendermodemgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_worldmodel.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\draw_sky.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_worldmodel.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="lithtech\mainworld.cpp">
+      <Filter>Source Files\lithtech</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_lightmap.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\full_intersectline.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\intersectline.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\crc32.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\d3d_shader_bloom.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d3d11.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="cpp.hint">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="render\shaders\soliddrawing_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\soliddrawing_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\optimizedsurface_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\optimizedsurface_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\tonemap_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\tonemap_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\screenfx_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\screenfx_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\clearscreen_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\clearscreen_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\fullscreenvideo_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\fullscreenvideo_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\sprite_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\sprite_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\global_header.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\passthrough_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\passthrough_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\canvas_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\canvas_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\linesystem_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\linesystem_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\polygrid_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\polygrid_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\particlesystem_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\particlesystem_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\model_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\model_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\worldmodel_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\worldmodel_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\skyworldmodel_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\skyworldmodel_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomblur_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomblur_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomcombine_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomcombine_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomextract_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\bloomextract_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\optimizedsurface_bat_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\optimizedsurface_bat_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\skyportal_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\skyportal_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\model_GS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\canvas_bat_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\canvas_bat_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\sprite_bat_PS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="render\shaders\sprite_bat_VS.hlsl">
+      <Filter>Source Files\render\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="render\extras\world_tweaks.txt">
+      <Filter>Source Files\render\extras</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

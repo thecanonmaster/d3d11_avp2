@@ -1,0 +1,5 @@
+# m_intro
+8B37E85B
+	# Two dropships flyby
+	BBox 25000 -33000 -28000 39000 -20000 -11000
+		HideBsp

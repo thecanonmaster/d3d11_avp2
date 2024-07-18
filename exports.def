@@ -1,0 +1,5 @@
+LIBRARY "d3d11"
+EXPORTS
+FreeModeList = rdll_FreeModeList @1
+GetSupportedModes = rdll_GetSupportedModes @2
+RenderDLLSetup = rdll_RenderDLLSetup @3
